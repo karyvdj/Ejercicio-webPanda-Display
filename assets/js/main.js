@@ -25,4 +25,4 @@ function cerrar() {
   this.style.display = "none";
 }
 
-borrar.addEventListener("click", cerrar);
+// borrar.addEventListener("click", cerrar);
