@@ -1,0 +1,47 @@
+body{
+  background:#F0DCE3;
+}
+header{
+  background: #D72666;
+  font-family: 'Delius Unicase', cursive;
+}
+nav{
+  display: inline-block;
+  padding: 20px;
+}
+a{
+  color: white;
+  padding: 20px;
+}
+a:hover{
+  background: #DE9BB4;
+}
+#icono{
+  width: 7%;
+  display: inline-block;
+}
+.imgContenedor{
+  margin-left: 10%;
+}
+.img{
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.img:hover{
+  opacity: 0.6;
+}
+p{
+  display: inline-block;
+  font-family: helvetica;
+  background: #D72666;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  width: 350px;
+}
+.textoContenedor{
+  margin-left: 15%;
+}
