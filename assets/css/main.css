@@ -1,5 +1,6 @@
 body{
   background:#F0DCE3;
+  font-family: helvetica;
 }
 header{
   background: #D72666;
@@ -13,11 +14,12 @@ a{
   color: white;
   padding: 20px;
 }
-a:hover{
+a:hover, .texto:hover{
   background: #DE9BB4;
 }
 #icono{
-  width: 7%;
+  width: 3%;
+  margin-left: 700px;
   display: inline-block;
 }
 .imgContenedor{
@@ -33,15 +35,20 @@ a:hover{
 .img:hover{
   opacity: 0.6;
 }
-p{
+.texto{
   display: inline-block;
-  font-family: helvetica;
   background: #D72666;
   color: white;
   text-align: center;
   padding: 7px;
   width: 350px;
 }
-.textoContenedor{
+.textoContenedor, .botonesContenedor{
   margin-left: 15%;
+}
+.p{
+  display: inline-block;
+  width: 520px;
+  text-align: justify;
+  padding: 20px;
 }
