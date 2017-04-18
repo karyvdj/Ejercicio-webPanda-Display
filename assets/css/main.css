@@ -22,13 +22,13 @@ a:hover, .texto:hover{
   margin-left: 500px;
   display: inline-block;
 }
-.imgContenedor{
-  margin:20px 9%;
-
-}
+/*.imgContenedor{
+  margin:10px 7%;
+}*/
 .imagenBoton{
+  margin-left: 80px;
   display: inline-block;
-  width: 250px;
+  width: 200px;
   position: relative;
 }
 .img{
