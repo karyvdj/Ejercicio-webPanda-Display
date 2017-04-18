@@ -31,6 +31,7 @@ a:hover, .texto:hover{
   margin: 10px;
   border-radius: 50%;
   border: 10px solid white;
+  position: relative;
 }
 .img:hover{
   opacity: 0.6;
@@ -51,4 +52,13 @@ a:hover, .texto:hover{
   width: 520px;
   text-align: justify;
   padding: 20px;
+}
+.cerrar{
+  position: absolute;
+  top:105px;
+  right: 200px;
+  color: #D72666;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 2;
 }
