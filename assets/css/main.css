@@ -19,22 +19,39 @@ a:hover, .texto:hover{
 }
 #icono{
   width: 3%;
-  margin-left: 700px;
+  margin-left: 500px;
   display: inline-block;
 }
 .imgContenedor{
-  margin-left: 10%;
+  margin:20px 9%;
+
+}
+.imagenBoton{
+  display: inline-block;
+  width: 250px;
+  position: relative;
 }
 .img{
   display: inline-block;
-  width: 20%;
-  margin: 10px;
+  width: 210px;
+  height: 150px;
   border-radius: 50%;
-  border: 10px solid white;
-  position: relative;
+  border: 5px solid white;
+
+  position: absolute;
 }
-.img:hover{
+/*.img:hover{
   opacity: 0.6;
+}*/
+.cerrar{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 165px;
+  display: inline-block;
+  color: #1EE7ED;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 2;
 }
 .texto{
   display: inline-block;
@@ -42,23 +59,19 @@ a:hover, .texto:hover{
   color: white;
   text-align: center;
   padding: 7px;
-  width: 350px;
+  width: 280px;
 }
-.textoContenedor, .botonesContenedor{
+.botonesContenedor{
+  margin-left: 15%;
+  margin-top: 200px;
+  position: relative;
+}
+.textoContenedor {
   margin-left: 15%;
 }
 .p{
   display: inline-block;
-  width: 520px;
+  width: 400px;
   text-align: justify;
   padding: 20px;
-}
-.cerrar{
-  position: absolute;
-  top:105px;
-  right: 200px;
-  color: #D72666;
-  font-size: 30px;
-  font-weight: bold;
-  z-index: 2;
 }
