@@ -1,17 +1,16 @@
 // alert("hola")
-var botonOrigen = document.getElementById('origen');
 var botonExtincion = document.getElementById('extincion');
 var botonFotos = document.getElementById('fotos');
 
-var p01 = document.getElementById('p01');
+var p02 = document.getElementById('p02');
 
 function quitarP(){
-  p01.style.display = "none";
+  p02.style.display = "none";
 }
 
 function ponerP(){
-  p01.style.display = "block";
+  p02.style.display = "inline-block";
 }
 
-botonOrigen.addEventListener("click", quitarP);
-botonOrigen.addEventListener("click", quitarP);
+botonExtincion.addEventListener("click", quitarP);
+botonExtincion.addEventListener("dblclick", ponerP);
